@@ -7,4 +7,5 @@
  - image (weakreference, picker[type='image']) mandatory
  - id (string)
  - class (string)
+ - alt (string)
 

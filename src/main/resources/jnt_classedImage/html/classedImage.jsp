@@ -26,8 +26,12 @@
     <c:set var="class" value="${currentNode.properties['class'].string}"/>
 </c:if>
 
+<c:if test="${not empty currentNode.properties['alt']}">
+    <c:set var="alt" value="${currentNode.properties['alt'].string}"/>
+</c:if>
+
 <c:set var="pic" value="${currentNode.properties['image']}"/>
 <c:url var="imgUrl" value="${pic.node.url}"></c:url>
 
 <!-- The actual image, with id and class, if given -->
-<img id="${id}" class="${class}" src="${imgUrl}"/>
+<img id="${id}" class="${class}" src="${imgUrl}" alt="$[alt}"/>
