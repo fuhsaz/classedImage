@@ -12,12 +12,10 @@
                   j:staticMountPointProviderKey="module-imagewithclass-1.0-SNAPSHOT">
                     <src jcr:mixinTypes="jmix:sourceControl" jcr:primaryType="jnt:folder">
                         <main jcr:mixinTypes="jmix:sourceControl" jcr:primaryType="jnt:folder">
-                            <resources jcr:mixinTypes="jmix:sourceControl" jcr:primaryType="jnt:folder">
-                                <jnt_classedImage jcr:mixinTypes="jmix:sourceControl"
-                                       jcr:primaryType="jnt:nodeTypeFolder">
-                                    <html jcr:mixinTypes="jmix:sourceControl"
-                              jcr:primaryType="jnt:templateTypeFolder">
-                                        <classedImage.jsp jcr:mixinTypes="jmix:sourceControl" jcr:primaryType="jnt:viewFile"/>
+                            <resources jcr:primaryType="jnt:folder">
+                                <jnt_classedImage jcr:primaryType="jnt:nodeTypeFolder">
+                                    <html jcr:primaryType="jnt:templateTypeFolder">
+                                        <classedImage.jsp jcr:primaryType="jnt:viewFile"/>
                                     </html>
                                 </jnt_classedImage>
                             </resources>
